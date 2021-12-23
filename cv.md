@@ -1,15 +1,18 @@
 # Evgeny Belichenko
 ## Contacts:
-- e-mail: <forhlamm@yandex.ru>  
-- Discord: JENY#5665
+* e-mail: <forhlamm@yandex.ru>  
+* Discord: JENY#5665
 ***
+
 ## About me:
 I am from Kaluga. I work in technical support.
 ***
+
 ## Skills:
 * Basic HTML
 * Basic CSS
 ***
+
 ## Code example:
 ```
 var summation = function (num) {
@@ -22,5 +25,6 @@ var summation = function (num) {
 }
 ```
 ***
+
 ## English:
-- A1 (In the process of intensive training)
+* A1 (In the process of intensive training)
