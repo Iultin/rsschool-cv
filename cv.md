@@ -22,11 +22,5 @@ var summation = function (num) {
 }
 ```
 ***
-<!-- ## Work experience:
-
-*** -->
-<!-- ## Education:
-
-*** -->
 ## English:
 - A1 (In the process of intensive training)
