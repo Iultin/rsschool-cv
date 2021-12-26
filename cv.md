@@ -9,8 +9,10 @@ I am from Kaluga. I work in technical support.
 ***
 
 ## Skills:
-* Basic HTML
-* Basic CSS
+* Basic HTML & CSS
+* Basic Python
+* Basic 1C
+* Basic Git & GitHub
 ***
 
 ## Code example:
