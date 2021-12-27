@@ -99,6 +99,7 @@ body {
 .menu__list {
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
 }
 
 .menu__item+.menu__item {
