@@ -52,6 +52,19 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+.class, /* Выравниваем цифры в шрифте */
+#id,
+tag,
+* {
+  font-variant-numeric: lining-nums;
+  -moz-font-feature-settings: "lnum"1;
+  -moz-font-feature-settings: "lnum=1";
+  -ms-font-feature-settings: "lnum"1;
+  -o-font-feature-settings: "lnum"1;
+  -webkit-font-feature-settings: "lnum"1;
+  font-feature-settings: "lnum"1;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -123,6 +136,7 @@ body {
 
 .main {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
   border: 1px solid blue;  
   margin-bottom: auto;
