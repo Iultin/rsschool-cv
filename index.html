@@ -14,6 +14,9 @@
 
 <body>
   <div class="container">
+    <a class="button__home" href="#">
+      <img src="images/house_icon.svg" alt="Home">
+    </a>
     <header class="header">
       <div class="me">
         <h1 class="name">Evgeny Belichenko</h1>
@@ -26,67 +29,68 @@
     <div class="nav">
       <ul class="menu__list">
         <li class="menu__item">
-          <a class="menu__link" href="#">
+          <a class="menu__link" href="#contacts">
             Contacts
           </a>
         </li>
         <li class="menu__item">
-          <a class="menu__link" href="#">
+          <a class="menu__link" href="#summary">
             Summary
           </a>
 
         </li>
         <li class="menu__item">
-          <a class="menu__link" href="#">
+          <a class="menu__link" href="#skills">
             Skills
           </a>
         </li>
         <li class="menu__item">
-          <a class="menu__link" href="#">
+          <a class="menu__link" href="#code">
             Code
           </a>
         </li>
         <li class="menu__item">
-          <a class="menu__link" href="#">
+          <a class="menu__link" href="#projects">
             Projects
           </a>
         </li>
         <li class="menu__item">
-          <a class="menu__link" href="#">
+          <a class="menu__link" href="#education">
             Education
           </a>
         </li>
         <li class="menu__item">
-          <a class="menu__link" href="#">
-            English
+          <a class="menu__link" href="#language">
+            Language
           </a>
         </li>
       </ul>
     </div>
     <div class="main">
       <div class="main__contacts">
-        <h3>Contacts</h3>
+        <h3 id="contacts">Contacts</h3>
         <p class="contacts__location">Location: Kaluga, Kaluga</p>
-        <p class="contacts__mail">e-mail: forhlamm@yandex.ru</p>
+        <p class="contacts__mail">e-mail: <a class="contacts__mail-link"
+            href="mailto:forhlamm@yandex.ru">forhlamm@yandex.ru</a></p>
         <p class="contacts__discord">Discord: JENY#5665</p>
         <p class="contacts__github">Github: Iultin</p>
       </div>
       <div class="main__content">
-        <h3>Summary</h3>
+        <h3 id="summary">Summary</h3>
         <p class="p__summary">
           I am from Kaluga. I have been working in technical support for many years. But for me, frontend development is
           closer. I would like to find myself a team and mentor for training and work.
         </p>
         <!-- <br> -->
-        <h3>Skills</h3>
-        <ul class="ul__skills">
+        <h3 id="skills">Skills</h3>
+        <ul>
           <li>Basic HTML & CSS</li>
           <li>Basic Python</li>
           <li>Basic 1C</li>
           <li>Basic Git & GitHub</li>
         </ul>
         <br>
-        <h3>Code</h3>
+        <h3 id="code">Code</h3>
         <!-- <p class="p__code"> -->
         <pre>
             <code>
@@ -100,7 +104,7 @@
             </code>
         </pre>
         <!-- </p> -->
-        <h3>Projects</h3>
+        <h3 id="projects">Projects</h3>
         <p class="p__projects">
           Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты. Буквоград, семантика пор
           своих, маленькая даль, там агентство страна взгляд подзаголовок пустился свою выйти ему злых продолжил которой
@@ -114,17 +118,17 @@
         </p>
         <br>
 
-        <h3>Education</h3>
+        <h3 id="education">Education</h3>
         <p class="p__education">
 
         </p>
         <br>
 
-        <h3>Language</h3>
-          <ul class="ul__language">
-            <li>Russian: Native</li>
-            <li>Englihs: A1 (In the process of intensive training)</li>
-          </ul>
+        <h3 id="language">Language</h3>
+        <ul>
+          <li>Russian: Native</li>
+          <li>Englihs: A1 (In the process of intensive training)</li>
+        </ul>
       </div>
     </div>
     <div class="footer">
