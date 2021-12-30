@@ -79,6 +79,12 @@ tag,
   min-height: 100vh;
 }
 
+.button__home {
+  width: 40px;
+  position: fixed;
+  left: 0;
+}
+
 .header {
   display: flex;
   max-height: 128px;
