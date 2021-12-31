@@ -177,6 +177,10 @@ h2 {
   margin-bottom: 12px;
 }
 
+li {
+  line-height: 1.5;
+}
+
 .main__content h2+p {
   margin-bottom: 22px;
 }
